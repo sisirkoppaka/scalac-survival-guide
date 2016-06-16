@@ -1,10 +1,5 @@
 package guide
 
-import com.sun.tools.javac.code
-
-import scala.reflect.internal.Flags
-import scala.tools.nsc.{Phase, SubComponent, Global}
-
 object _14_SymbolTableMutation extends App {
   val g1 = newGlobal("-Xfatal-warnings")
   import g1._
